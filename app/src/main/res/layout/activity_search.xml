@@ -19,7 +19,43 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Search"
+        android:layout_marginBottom="40dp"
         android:id="@+id/btnSearch"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_margin="20dp"
+        android:id="@+id/etName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:layout_margin="20dp"
+        android:id="@+id/etAge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Salary"
+        android:layout_margin="20dp"
+        android:id="@+id/etSalary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="update"
+        android:id="@+id/btnUpdate"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete"
+        android:id="@+id/btnDelete"/>
 
     <TextView
         android:layout_width="match_parent"
